@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'montserrat';
+	src: url('../fonts/MontserratBold.eot');
+	src: url('../fonts/MontserratBold.eot') format('embedded-opentype'),
+		url('../fonts/MontserratBold.woff2') format('woff2'),
+		url('../fonts/MontserratBold.woff') format('woff'),
+		url('../fonts/MontserratBold.ttf') format('truetype');
+		font-weight: 700;
+		font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserrat';
+	src: url('../fonts/MontserratRegular.eot');
+	src: url('../fonts/MontserratRegular.eot') format('embedded-opentype'),
+		url('../fonts/MontserratRegular.woff2') format('woff2'),
+		url('../fonts/MontserratRegular.woff') format('woff'),
+		url('../fonts/MontserratRegular.ttf') format('truetype');
+		font-weight: 400;
+		font-style: normal;
+}
+
+@font-face {
+	font-family: 'quantantiqua';
+	src: url('../fonts/quantantiquabolditalic.eot');
+	src: url('../fonts/quantantiquabolditalic.eot') format('embedded-opentype'),
+		url('../fonts/quantantiquabolditalic.woff2') format('woff2'),
+		url('../fonts/quantantiquabolditalic.woff') format('woff'),
+		url('../fonts/quantantiquabolditalic.ttf') format('truetype');
+		font-weight: 700;
+		font-style: italic;
+}
+
+@font-face {
+	font-family: 'quantantiqua';
+	src: url('../fonts/quantantiquacttitalic.eot');
+	src: url('../fonts/quantantiquacttitalic.eot') format('embedded-opentype'),
+		url('../fonts/quantantiquacttitalic.woff2') format('woff2'),
+		url('../fonts/quantantiquacttitalic.woff') format('woff'),
+		url('../fonts/quantantiquacttitalic.ttf') format('truetype');
+		font-weight: 400;
+		font-style: italic;
+}

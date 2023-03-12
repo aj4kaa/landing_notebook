@@ -1,0 +1,42 @@
+.promo {
+	min-height: 770px;
+	padding-bottom: 50px;
+	background: url("../img/bg_first.png") center (center/cover) no-repeat;
+
+	&__wrapper {
+		margin: 283px 0 0 525px;
+		max-width: 425px;
+		padding: 30px 25px;
+		background: rgba(0, 0, 0, 0.8);
+		border-width: 1px 0px;
+		border-style: solid;
+		border-color: #FFFFFF;
+		border-radius: 15px;
+	}
+
+	&__header {
+		font-family: 'quantantiqua';
+		font-style: italic;
+		font-weight: 700;
+		font-size: 35px;
+		color: #FFFFFF;
+	}
+
+	&__line {
+		margin: 15px 0;
+		border-top: 1px solid rgba(255, 255, 255, 0.5);
+	}
+
+	&__subheader {
+		font-family: 'quantantiqua';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 27px;
+		color: #FFFFFF;
+	}
+	button {
+		float: right;
+    margin: 20px 95px 0 0;
+		
+	}
+}

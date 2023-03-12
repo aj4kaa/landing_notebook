@@ -1,0 +1,53 @@
+@import "libs/fonts";
+@import "base/vars";
+
+* {
+	font-family: sans-serif;
+}
+
+input {
+	outline: none;
+}
+
+button:active,
+button:focus {
+	outline: none;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/titles";
+@import "blocks/info";

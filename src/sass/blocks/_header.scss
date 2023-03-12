@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    display: block;
+    width: 100px;
+  }
+  &__link {
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 15px;
+  }
+  &__link:hover {
+    font-weight: 700;
+  }
+  &__contacts a{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+  }
+}
