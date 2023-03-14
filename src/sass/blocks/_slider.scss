@@ -1,0 +1,31 @@
+.image-slider {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.image-slider__image {
+	text-align: center;
+}
+
+.info__slider .swiper-button-prev:after,
+.info__slider .swiper-button-next:after {
+	font-size: 50px;
+	font-weight: 400;
+	color: #32302A;
+}
+.info__slider .swiper-button-prev {
+	left: -43px;
+}
+
+.info__slider .swiper-button-next {
+	right: -43px;
+}
+
+.info__slider .swiper-pagination {
+	bottom: -35px;
+}
+
+.info__slider .swiper-pagination-bullet {
+	width: 15px;
+	height: 15px;
+	background-color: #32302A;
+}

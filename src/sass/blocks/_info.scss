@@ -1,4 +1,25 @@
 .info {
 	min-height: 743px;
 	padding: 45px 0;
+	background: url("../img/bg_descr.png") center (center/cover) no-repeat;
+	&__wrapper {
+		display: flex;
+		margin-top: 35px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__text {
+		display: block;
+		max-width: 505px;
+		font-family: 'QuantAntiqua';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 18px;
+		color: #32302A;
+	}
+	&__slider {
+		width: 377px;
+		position: relative;
+	}
 }

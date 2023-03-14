@@ -1,0 +1,20 @@
+.order {
+  min-height: 594px;
+  padding: 50px 0;
+  background: url("../img/bg_form.png") center (center/cover) no-repeat;
+  &__subtitle {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'QuantAntiqua';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+  }
+  &__wrapper {
+    padding-top: 35px;
+    max-width: 598px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+}

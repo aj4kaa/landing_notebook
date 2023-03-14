@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/favicon.png">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>дневник</title>
 </head>
@@ -33,17 +34,87 @@
 				<div class="promo__line"></div>
 				<h2 class="promo__subheader">Визуализируй, мечтай, планируй путь к гармонии с собой</h2>
 			</div>
-			<button data-modal="order" class="button button_main">заказать</button>
+			<button data-modal="order" class="button button_main">Заказать</button>
 		</div>
 	</section>
 	<section class="info">
 		<div class="container">
 			<h2 class="title">Сбалансируй свой мир</h2>
 			<div class="title__divider"></div>
-			<div class="info__wrapper"></div>
+			<div class="info__wrapper">
+				<p class="info__text">Многие проводят часы и дни в поисках уникального подарка друзьям, родным или себе. Хотят
+					поздравить нестандартно, порадовать. Предлагаю разнообразить ассортимент Вашего магазина и удивить Ваших
+					покупателей авторским продуктом Маргариты Леонидовны Пашковой, блокнотом «Выбираю быть
+					счастливым!».<br><br><br>Блокнот не для записей, которые останутся там жить навсегда, а для визуализации мечт,
+					планов и более осознанного отношения к своей жизни на пути к гармонии с собой и счастью в понимании его
+					обладателя.<br><br><br>Блокнот стильно упакован и отлично подойдет в качестве подарка на любой праздник,
+					особенно
+					день рождения, когда мы думаем, чем богат прожитый год и чего хотим добиться в будущем. Блокнот поможет пройти
+					непростой путь пошагово, закрепляя достижения и мотивируя к новым своего обладателя. Осознание своей жизни и
+					целей, материализация мечты – 50% на пути к успеху!</p>
+				<div class="info__slider">
+					<div class="image-slider swiper">
+						<div class="image-slider__wrapper swiper-wrapper">
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image"><img src="img/sec2_img1.jpg" alt="#"></div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image"><img src="img/sec2_img2.jpg" alt="#"></div>
+							</div>
+							<div class="image-slider__slide swiper-slide">
+								<div class="image-slider__image"><img src="img/sec2_img3.jpg" alt="#"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<script src="js/script.js"></script>
+	<section class="composition">
+		<div class="container">
+			<div class="composition_wrapper"></div>
+		</div>
+	</section>
+	<section class="video">
+		<div class="container">
+			<h2 class="title">Отмечай важные события</h2>
+			<div class="title__divider title__divider_video"></div>
+			<div class="video__wrap">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA" title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="order">
+		<div class="container">
+			<div class="order__wrapper">
+				<h2 class="title">Оставьте заявку</h2>
+				<div class="order__subtitle">И мы свяжемся с вами в ближайшее время</div>
+				<div class="title__divider title__divider_order"></div>
+				<form action="#" class="feed-form">
+					<div class="feed-form__field">
+						<input type="text" placeholder="Ваше имя" name="username" autocomplete="off">
+						<small></small>
+					</div>
+					<div class="feed-form__field">
+						<input type="text" placeholder="Ваш телефон" name="phone" autocomplete="off" data-phone-pattern
+							data-phone-clear='false'>
+						<small></small>
+					</div>
+					<div class="feed-form__field">
+						<button class="button button_submit">отправить</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/index.js"></script>
 </body>
 
 </html>

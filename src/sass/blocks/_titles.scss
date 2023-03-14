@@ -6,4 +6,15 @@
   line-height: 44px;
 	color: #000000;
 	text-align: center;
+  &__divider {
+    width: 362px;
+    margin: 15px auto 15px auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    &_video {
+      width: 421px;
+    }
+	 &_order {
+		margin: 35px auto 0px auto;
+	 }
+  }
 }

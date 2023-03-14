@@ -1,0 +1,46 @@
+.feed-form {
+  padding: 50px;
+
+	&__field {
+		margin-bottom: 15px;
+    text-align: center;
+
+		input {
+			text-align: center;
+			border: solid 1px #ffffff;
+			display: block;
+			border-radius: 5px;
+			padding: 14px;
+			font-size: 14px;
+			font-weight: 300;
+			width: 100%;
+			transition: 0.3s ease-in-out;
+		}
+		small {
+			color: #fff;
+		}
+
+		input:focus {
+			outline: none;
+		}
+
+		&.error input {
+			border: solid 1px var(--error-color);
+		}
+
+		&.success input {
+			border: solid 1px var(--success-color);
+		}
+
+		button:hover {
+			background: #f70101;
+		}
+	}
+	&__field:nth-child(3) {
+		margin-bottom: 20px;
+	}
+}
+
+.overlay small {
+	color: #000;
+}
